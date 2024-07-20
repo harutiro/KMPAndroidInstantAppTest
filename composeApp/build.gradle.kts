@@ -98,6 +98,7 @@ android {
     buildFeatures {
         compose = true
     }
+    dynamicFeatures += setOf(":dynamicfeature")
     dependencies {
         debugImplementation(compose.uiTooling)
     }
